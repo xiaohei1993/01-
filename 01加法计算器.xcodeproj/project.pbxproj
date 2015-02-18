@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185B4C1D1A94180300FB7A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185B4C1C1A94180300FB7A5C /* Foundation.framework */; };
+		185B4C1F1A94180300FB7A5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185B4C1E1A94180300FB7A5C /* CoreGraphics.framework */; };
+		185B4C211A94180300FB7A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185B4C201A94180300FB7A5C /* UIKit.framework */; };
+		185B4C271A94180300FB7A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185B4C251A94180300FB7A5C /* InfoPlist.strings */; };
+		185B4C291A94180300FB7A5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B4C281A94180300FB7A5C /* main.m */; };
+		185B4C2D1A94180300FB7A5C /* ZHYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B4C2C1A94180300FB7A5C /* ZHYAppDelegate.m */; };
+		185B4C301A94180300FB7A5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185B4C2E1A94180300FB7A5C /* Main.storyboard */; };
+		185B4C331A94180300FB7A5C /* ZHYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B4C321A94180300FB7A5C /* ZHYViewController.m */; };
+		185B4C351A94180300FB7A5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185B4C341A94180300FB7A5C /* Images.xcassets */; };
+		185B4C3C1A94180300FB7A5C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185B4C3B1A94180300FB7A5C /* XCTest.framework */; };
+		185B4C3D1A94180300FB7A5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185B4C1C1A94180300FB7A5C /* Foundation.framework */; };
+		185B4C3E1A94180300FB7A5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185B4C201A94180300FB7A5C /* UIKit.framework */; };
+		185B4C461A94180300FB7A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185B4C441A94180300FB7A5C /* InfoPlist.strings */; };
+		185B4C481A94180300FB7A5C /* _1_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B4C471A94180300FB7A5C /* _1_____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185B4C3F1A94180300FB7A5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185B4C111A94180300FB7A5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185B4C181A94180300FB7A5C;
+			remoteInfo = "01加法计算器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185B4C191A94180300FB7A5C /* 01加法计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01加法计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185B4C1C1A94180300FB7A5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		185B4C1E1A94180300FB7A5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		185B4C201A94180300FB7A5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		185B4C241A94180300FB7A5C /* 01加法计算器-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01加法计算器-Info.plist"; sourceTree = "<group>"; };
+		185B4C261A94180300FB7A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		185B4C281A94180300FB7A5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185B4C2A1A94180300FB7A5C /* 01加法计算器-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "01加法计算器-Prefix.pch"; sourceTree = "<group>"; };
+		185B4C2B1A94180300FB7A5C /* ZHYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHYAppDelegate.h; sourceTree = "<group>"; };
+		185B4C2C1A94180300FB7A5C /* ZHYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHYAppDelegate.m; sourceTree = "<group>"; };
+		185B4C2F1A94180300FB7A5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185B4C311A94180300FB7A5C /* ZHYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHYViewController.h; sourceTree = "<group>"; };
+		185B4C321A94180300FB7A5C /* ZHYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHYViewController.m; sourceTree = "<group>"; };
+		185B4C341A94180300FB7A5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		185B4C3A1A94180300FB7A5C /* 01加法计算器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01加法计算器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185B4C3B1A94180300FB7A5C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		185B4C431A94180300FB7A5C /* 01加法计算器Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01加法计算器Tests-Info.plist"; sourceTree = "<group>"; };
+		185B4C451A94180300FB7A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		185B4C471A94180300FB7A5C /* _1_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185B4C161A94180300FB7A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B4C1F1A94180300FB7A5C /* CoreGraphics.framework in Frameworks */,
+				185B4C211A94180300FB7A5C /* UIKit.framework in Frameworks */,
+				185B4C1D1A94180300FB7A5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185B4C371A94180300FB7A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B4C3C1A94180300FB7A5C /* XCTest.framework in Frameworks */,
+				185B4C3E1A94180300FB7A5C /* UIKit.framework in Frameworks */,
+				185B4C3D1A94180300FB7A5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185B4C101A94180300FB7A5C = {
+			isa = PBXGroup;
+			children = (
+				185B4C221A94180300FB7A5C /* 01加法计算器 */,
+				185B4C411A94180300FB7A5C /* 01加法计算器Tests */,
+				185B4C1B1A94180300FB7A5C /* Frameworks */,
+				185B4C1A1A94180300FB7A5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185B4C1A1A94180300FB7A5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185B4C191A94180300FB7A5C /* 01加法计算器.app */,
+				185B4C3A1A94180300FB7A5C /* 01加法计算器Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185B4C1B1A94180300FB7A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				185B4C1C1A94180300FB7A5C /* Foundation.framework */,
+				185B4C1E1A94180300FB7A5C /* CoreGraphics.framework */,
+				185B4C201A94180300FB7A5C /* UIKit.framework */,
+				185B4C3B1A94180300FB7A5C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		185B4C221A94180300FB7A5C /* 01加法计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				185B4C2B1A94180300FB7A5C /* ZHYAppDelegate.h */,
+				185B4C2C1A94180300FB7A5C /* ZHYAppDelegate.m */,
+				185B4C2E1A94180300FB7A5C /* Main.storyboard */,
+				185B4C311A94180300FB7A5C /* ZHYViewController.h */,
+				185B4C321A94180300FB7A5C /* ZHYViewController.m */,
+				185B4C341A94180300FB7A5C /* Images.xcassets */,
+				185B4C231A94180300FB7A5C /* Supporting Files */,
+			);
+			path = "01加法计算器";
+			sourceTree = "<group>";
+		};
+		185B4C231A94180300FB7A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185B4C241A94180300FB7A5C /* 01加法计算器-Info.plist */,
+				185B4C251A94180300FB7A5C /* InfoPlist.strings */,
+				185B4C281A94180300FB7A5C /* main.m */,
+				185B4C2A1A94180300FB7A5C /* 01加法计算器-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185B4C411A94180300FB7A5C /* 01加法计算器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				185B4C471A94180300FB7A5C /* _1_____Tests.m */,
+				185B4C421A94180300FB7A5C /* Supporting Files */,
+			);
+			path = "01加法计算器Tests";
+			sourceTree = "<group>";
+		};
+		185B4C421A94180300FB7A5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185B4C431A94180300FB7A5C /* 01加法计算器Tests-Info.plist */,
+				185B4C441A94180300FB7A5C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185B4C181A94180300FB7A5C /* 01加法计算器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185B4C4B1A94180300FB7A5C /* Build configuration list for PBXNativeTarget "01加法计算器" */;
+			buildPhases = (
+				185B4C151A94180300FB7A5C /* Sources */,
+				185B4C161A94180300FB7A5C /* Frameworks */,
+				185B4C171A94180300FB7A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01加法计算器";
+			productName = "01加法计算器";
+			productReference = 185B4C191A94180300FB7A5C /* 01加法计算器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185B4C391A94180300FB7A5C /* 01加法计算器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185B4C4E1A94180300FB7A5C /* Build configuration list for PBXNativeTarget "01加法计算器Tests" */;
+			buildPhases = (
+				185B4C361A94180300FB7A5C /* Sources */,
+				185B4C371A94180300FB7A5C /* Frameworks */,
+				185B4C381A94180300FB7A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185B4C401A94180300FB7A5C /* PBXTargetDependency */,
+			);
+			name = "01加法计算器Tests";
+			productName = "01加法计算器Tests";
+			productReference = 185B4C3A1A94180300FB7A5C /* 01加法计算器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185B4C111A94180300FB7A5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZHY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhy;
+				TargetAttributes = {
+					185B4C391A94180300FB7A5C = {
+						TestTargetID = 185B4C181A94180300FB7A5C;
+					};
+				};
+			};
+			buildConfigurationList = 185B4C141A94180300FB7A5C /* Build configuration list for PBXProject "01加法计算器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185B4C101A94180300FB7A5C;
+			productRefGroup = 185B4C1A1A94180300FB7A5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185B4C181A94180300FB7A5C /* 01加法计算器 */,
+				185B4C391A94180300FB7A5C /* 01加法计算器Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185B4C171A94180300FB7A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B4C351A94180300FB7A5C /* Images.xcassets in Resources */,
+				185B4C271A94180300FB7A5C /* InfoPlist.strings in Resources */,
+				185B4C301A94180300FB7A5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185B4C381A94180300FB7A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B4C461A94180300FB7A5C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185B4C151A94180300FB7A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B4C2D1A94180300FB7A5C /* ZHYAppDelegate.m in Sources */,
+				185B4C291A94180300FB7A5C /* main.m in Sources */,
+				185B4C331A94180300FB7A5C /* ZHYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185B4C361A94180300FB7A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B4C481A94180300FB7A5C /* _1_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185B4C401A94180300FB7A5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185B4C181A94180300FB7A5C /* 01加法计算器 */;
+			targetProxy = 185B4C3F1A94180300FB7A5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185B4C251A94180300FB7A5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185B4C261A94180300FB7A5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		185B4C2E1A94180300FB7A5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185B4C2F1A94180300FB7A5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185B4C441A94180300FB7A5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185B4C451A94180300FB7A5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185B4C491A94180300FB7A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185B4C4A1A94180300FB7A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185B4C4C1A94180300FB7A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01加法计算器/01加法计算器-Prefix.pch";
+				INFOPLIST_FILE = "01加法计算器/01加法计算器-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		185B4C4D1A94180300FB7A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01加法计算器/01加法计算器-Prefix.pch";
+				INFOPLIST_FILE = "01加法计算器/01加法计算器-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		185B4C4F1A94180300FB7A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/01加法计算器.app/01加法计算器";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01加法计算器/01加法计算器-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "01加法计算器Tests/01加法计算器Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		185B4C501A94180300FB7A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/01加法计算器.app/01加法计算器";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01加法计算器/01加法计算器-Prefix.pch";
+				INFOPLIST_FILE = "01加法计算器Tests/01加法计算器Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185B4C141A94180300FB7A5C /* Build configuration list for PBXProject "01加法计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185B4C491A94180300FB7A5C /* Debug */,
+				185B4C4A1A94180300FB7A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185B4C4B1A94180300FB7A5C /* Build configuration list for PBXNativeTarget "01加法计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185B4C4C1A94180300FB7A5C /* Debug */,
+				185B4C4D1A94180300FB7A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		185B4C4E1A94180300FB7A5C /* Build configuration list for PBXNativeTarget "01加法计算器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185B4C4F1A94180300FB7A5C /* Debug */,
+				185B4C501A94180300FB7A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185B4C111A94180300FB7A5C /* Project object */;
+}
